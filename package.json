@@ -1,0 +1,31 @@
+{
+  "name": "shitbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:env": "dotenv -- npm run start",
+    "start": "node .",
+    "deploy": "git push heroku master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudo-code/shitbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qudo-code/shitbot/issues"
+  },
+  "homepage": "https://github.com/qudo-code/shitbot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "node-schedule": "^2.1.0",
+    "twitter-api-v2": "^1.12.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.1.0"
+  }
+}
